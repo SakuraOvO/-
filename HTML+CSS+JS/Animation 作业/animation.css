@@ -1,0 +1,28 @@
+* {margin: 0;padding: 0;}
+
+/* 蓝天白云 */
+.blue-sky {position: relative;overflow: hidden;width: 100%;height: 600px;background: linear-gradient(rgb(196, 228, 253)0%, rgb(196, 228, 253)20%, white 100%);}
+/* 白云 */
+.cloud {position: absolute;width: 200px;height: 70px;border-radius: 35px;background: #fff;}
+.cloud::before {position: absolute;top: -40px;left: 65px;width: 120px;height: 120px;content: '';border-radius: 60px;background: #fff;}
+.cloud::after {position: absolute;top: -18px;left: 35px;width: 50px;height: 100px;content: '';transform: rotate(-25deg);border-radius: 50px;background: #fff;}
+/* 白云1 */
+.cloud:first-of-type {top: 150px;left: 110%;animation: translate-one 25s infinite linear;opacity: 1;}
+@keyframes translate-one {0% {left: 110%;}100% {left: -20%;}}
+/* 白云2 */
+.cloud:nth-of-type(2) {top: 300px;left: 120%;transform: scale(.8);animation: translate-two 27s infinite linear;opacity: .9;}
+@keyframes translate-two {0% {left: 120%;}100% {left: -20%;}}
+/* 白云3 */
+.cloud:nth-of-type(3) {top: 80px;left: 125%;transform: scale(.6);animation: translate-three 29s infinite linear;opacity: .8;}
+@keyframes translate-three {0% {left: 125%;}100% {left: -20%;}}
+/* 白云4 */
+.cloud:nth-of-type(4) {top: 200px;left: 135%;transform: scale(.4);animation: translate-four 31s infinite linear;opacity: .5;}
+@keyframes translate-four {0% {left: 135%;}100% {left: -20%;}}
+/* 白云5 */
+.cloud:last-of-type {top: 220px;left: 145%;transform: scale(.5);animation: translate-five 33s infinite linear;opacity: .6;}
+@keyframes translate-five {0% {left: 145%;}100% {left: -20%;}}
+
+/* 草地 */
+.grass {position: relative;width: 100%;height: 400px;background: linear-gradient(0deg, rgb(148, 190, 89)0%, rgb(148, 190, 89)20%, white 100%);}
+/* 白兔 */
+img {position: absolute;right: 200px;bottom: 50px;width: 300px;height: 300px;

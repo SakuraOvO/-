@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>操作符</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+</head>
+<body>
+    <script type="text/javascript">
+    	var x=4,y=5;
+    	var num1=x+++--y, // x=5,y=4,num1=8
+    		num2=(x++)-(--y), // x=6,y=3,num2=2
+    		num3=x++/--y; // x=7,y=2,num3=3
+
+			console.log(y);
+    </script>
+    <script type="text/javascript">
+    	var soce1=50,soce2=70;
+    	var result=soce2>=60?"及格":"不及格";
+    	 console.log(result);
+    </script>
+    <script type="text/javascript">
+    	var x=0,y=undefined;
+    	var m=1,n='imooc';
+    	console.log(x&&y); // 0
+    	console.log(m&&n); // imooc
+    </script>
+    <script type="text/javascript">
+    	var x=NaN,y=undefined,z=1;
+    	var m=1,n='0',j=33;
+    	var a=!undefined,b=!0;// true,true
+    	console.log(x||y||z);// 1
+    	console.log(m||n||j);// 1
+    	console.log(a||b);// true
+    </script>
+</body>
+</html>

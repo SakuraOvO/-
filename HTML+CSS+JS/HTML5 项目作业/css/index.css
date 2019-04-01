@@ -1,0 +1,17 @@
+*{  padding: 0; margin: 0;  }
+table{  width: 100%;  }
+img{  height: 50px;  }
+
+table thead tr td{  height: 60px;  background: #169bd5;  padding-left: 20px;  }
+table tfoot tr td{  height: 60px;  background: #169bd5;  line-height: 60px;  text-align: center;  }
+table tbody tr td{  width: 100%;  border:1px solid #cccccc;  }
+
+.aside{  width:12%;  position: relative;  }
+.aside-p{  width: 100%;  position: absolute;  top:0;  }
+.aside p{  padding-bottom: 10px;padding-left: 20px;  }
+
+.con{  width: 88%;  }
+.con table tr td{  border:2px solid #cccccc;  }
+.con .top tr td{  height: 50px;  font-size: 25px;  padding-left: 20px;  }
+.con .middle tr td{  height: 50px;  padding-left: 20px;  }
+.con .foot tr td{  height: 50px;  width: auto;  text-align: center; }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Animation-two</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+    <style type="text/css">
+        div {
+            font-family: Arial;
+            font-size: 72px;
+            font-weight: bold;
+            position: fixed;
+            right: 0;
+            left: 0;
+            bottom: 30px;
+            width: 30px;
+            height: 30px;
+            margin: auto;
+            transform: rotate(90deg);
+            animation: great-than .5s infinite .5s alternate;
+        }
+        @keyframes great-than{
+        	from {
+        		 bottom: 30px;
+        	}
+        	to{
+				 bottom: 10px;
+        	}
+        }
+    </style>
+</head>
+<body>
+      <div>&gt;</div>
+</body>
+</html>

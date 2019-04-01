@@ -1,0 +1,81 @@
+
+
+*{padding: 0;margin: 0;list-style: none;font-family:"Microsoft YaHei UI";"微软雅黑";"宋体";}
+a{text-decoration: none;}
+
+
+/* Header部分 */
+.header{height: 80px;width:100%;background:#07cbc9;min-width: 700px;position: fixed;top:0;overflow: hidden;zoom: 1;z-index: 999;}
+.header .logo{padding: 14px 150px;display: inline-block;float: left;}
+.header .nav{font-weight: bold;height: 80px;display: inline-block;float: right;padding-right: 150px;}
+.header .nav ul li{float: left;line-height: 80px;padding: 0 20px;}
+.header .nav ul li a{color: white;}
+.header .nav ul li:hover{background:black;}
+
+
+/* Footer部分 */
+.footer{height: 80px;width:100%;background:#07cbc9;}
+.footer p{color: white;font-size: 16px;text-align: center;line-height: 80px;}
+
+/* Banner区 */
+.banner{width: 100%;height: 800px;background:url(images/banner3.jpg) no-repeat  center top;background-size: cover;margin-top: 80px;}
+.banner .opacity{background:rgba(0,0,0,0.3);width:100%;height: 800px;margin: 0 auto;position: relative}
+.banner .opacity .personal-information{width:509px;height: 400px;position: absolute;top:50%;left: 50%;margin-top: -200px;margin-left: -255px;}
+.banner .opacity .personal-information input,textarea{display: block;width: 505px;border: 2px solid gray;background: transparent;margin-bottom: 20px;color: gray;font-size: 20px;}
+.banner .opacity .personal-information .small{  height: 39px;  }
+.banner .opacity .personal-information textarea{  height: 115px;  }
+.banner .opacity .personal-information .button{width: 123px;height: 39px;font-size: 15px;margin-left: 191px;}
+.banner .opacity .personal-information input:hover{border: 2px solid #07cbc9;}
+.banner .opacity .personal-information textarea:hover{border: 2px solid #07cbc9;}
+.banner .opacity .personal-information .button:hover{border:none;background: #07cbc9;color: black;}
+
+
+/* About区 */
+
+/* About 文字介绍区 */
+.about{width: 100%;height: 1550px;}
+.about .about-title{font-size: 40px;height: 150px;text-align: center;line-height: 150px;}
+.about .about-title span{display:block;width:40px;height: 2px;background:#07cbc9;margin: -25px auto 0;}
+.about .about-word {width: 550px;text-align: center;color: gray;margin: 10px auto;}
+.about .about-con{width: 1200px;margin: 40px auto;overflow: hidden;position: relative}
+.about .about-con img{width: 568px;height: 380px;float: left;margin-left: 300px;}
+.about .about-con .con-left{width: 370px;height: 300px;position: absolute;top:40px;left: 100px;}
+.about .about-con .con-left .left-title{font-size: 30px;}
+.about .about-con .con-left .left-button{border: 1px solid gray;width: 370px;height: 246px;background:rgba(255,255,255,0.5);margin-top: 10px;}
+.about .about-con .con-left .left-button p{font-size: 20px;padding: 20px 10px 20px 25px;}
+.about .about-con .con-left .left-button button{width:102px;height: 45px;background:black;color: white;border: none;margin-left: 50px;}
+.about .about-con .con-left .left-button button:hover{background:transparent;border: 3px solid black;color: black;cursor: pointer;}
+.about .about-con .con-right{width: 238px;height:380px;float:left;margin-left: 40px;}
+.about .about-con .con-right .right-one,.right-two{width: 238px;height: 144px;text-align: center;border: 1px solid #07cbc9;}
+.about .about-con .con-right .right-one{margin:20px auto;}
+.about .about-con .con-right .number{font-size: 35px;font-weight: bold;margin-top: 20px;}
+.about .about-con .con-right .hr{height:2px;width: 40px;background: #07cbc9;margin: 15px auto;}
+.about .about-con .con-right .word{font-size: 20px;}
+
+/* About 表格图文区 */
+.about .about-image{width: 100%;height:800px;margin-top: 100px;}
+.about .about-image table{width: 100%;margin: 0 auto;border-collapse: collapse;}
+.about .about-image table tr td{width: 25%;height: 400px;}
+.about .about-image table tr .b1{background: url("images/b1.jpg") no-repeat;background-size:100% 100%;}
+.about .about-image table tr .b2{background: url("images/b2.jpg") no-repeat;background-size:100% 100%;}
+.about .about-image table tr .b3{background: url("images/b3.jpg") no-repeat;background-size:100% 100%;}
+.about .about-image table tr .b4{background: url("images/b4.jpg") no-repeat;background-size:100% 100%;}
+.about .about-image table tr .present{background:#07cbc9;position: relative;}
+.about .about-image table tr .present .present-head{color: white;font-size: 35px;padding-bottom: 20px;padding-left: 30px;}
+.about .about-image table tr .present .present-middle{color: whitesmoke;font-size: 20px;padding-bottom: 20px;padding-left: 30px;}
+.about .about-image table tr .present .present-foot{color: gainsboro;font-size: 15px;padding-bottom: 150px;padding-left: 30px}
+.about .about-image table tr .present button{width:102px;height: 45px;background:black;color: white;border: none;position: absolute;top:50%;left: 50%;margin-top: 103px;margin-left: -51px;}
+.about .about-image table tr .present button:hover{background:rgba(0,0,0,0.5);border: 3px solid black;cursor: pointer;}
+.about .about-image table tr .present span{display:block;width:0;height:0;border-style:solid;}
+.about .about-image table tr .present .one{border-width:35px 35px 35px 0;border-color:transparent #07cbc9 transparent transparent ;position:absolute;top:50%;left:-33px;margin-top:-35px;}
+.about .about-image table tr .present .two{border-width:35px 0 35px 35px;border-color:transparent transparent transparent #07cbc9 ;position:absolute;top:50%;right:-33px;margin-top:-35px;}
+
+/* Gallery区 */
+.gallery{width: 100%;height: 1000px;}
+.gallery .gallery-title{font-size: 40px;height: 150px;text-align: center;line-height: 150px;}
+.gallery .gallery-title span{display:block;width:40px;height: 2px;background:#07cbc9;margin: -25px auto 0;}
+.gallery .gallery-word{width: 550px;text-align: center;color: gray;margin: 10px auto;}
+.gallery .gallery-con{width:1200px;height: 700px;overflow: hidden;margin: 40px auto 0;}
+.gallery .gallery-con dl{float: left;margin: 20px 20px;}
+.gallery .gallery-con dt{width: 360px;height: 240px;background: orangered;}
+.gallery .gallery-con dd{width: 360px;height: 64px;background: black;font-size: 22px;color: white;text-indent: 1em;line-height: 64px;}
